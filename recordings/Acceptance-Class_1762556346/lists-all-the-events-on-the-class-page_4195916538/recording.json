@@ -1,16 +1,16 @@
 {
-  "created_at": "2018-06-12T03:23:18.264Z",
+  "created_at": "2018-06-12T03:50:15.583Z",
   "entries": {
     "01d860114a526df988ec2803a72aea64": [
       {
-        "created_at": "2018-06-12T03:23:18.264Z",
+        "created_at": "2018-06-12T03:50:15.583Z",
         "request": {
           "body": null,
           "headers": {
             "Content-Type": "text/plain;charset=utf-8"
           },
           "method": "GET",
-          "timestamp": "2018-06-12T03:23:18.024Z",
+          "timestamp": "2018-06-12T03:50:15.300Z",
           "url": "https://ember-api-docs-frontend.global.ssl.fastly.net/assets/mappings.json"
         },
         "response": {
@@ -21,20 +21,20 @@
             "last-modified": "Fri, 11 May 2018 05"
           },
           "status": 200,
-          "timestamp": "2018-06-12T03:23:18.031Z"
+          "timestamp": "2018-06-12T03:50:15.330Z"
         }
       }
     ],
     "7130158a7d3126221a691a2f13a56c3b": [
       {
-        "created_at": "2018-06-12T03:23:18.264Z",
+        "created_at": "2018-06-12T03:50:15.583Z",
         "request": {
           "body": null,
           "headers": {
             "Content-Type": "text/plain;charset=utf-8"
           },
           "method": "GET",
-          "timestamp": "2018-06-12T03:23:17.911Z",
+          "timestamp": "2018-06-12T03:50:15.055Z",
           "url": "https://ember-api-docs.global.ssl.fastly.net/rev-index/ember-1.0.0.json"
         },
         "response": {
@@ -44,20 +44,20 @@
             "last-modified": "Fri, 01 Jun 2018 16"
           },
           "status": 200,
-          "timestamp": "2018-06-12T03:23:17.912Z"
+          "timestamp": "2018-06-12T03:50:15.091Z"
         }
       }
     ],
     "a4e034b030f19be97a6bbd555b154583": [
       {
-        "created_at": "2018-06-12T03:23:18.264Z",
+        "created_at": "2018-06-12T03:50:15.583Z",
         "request": {
           "body": null,
           "headers": {
             "Content-Type": "text/plain;charset=utf-8"
           },
           "method": "GET",
-          "timestamp": "2018-06-12T03:23:17.920Z",
+          "timestamp": "2018-06-12T03:50:15.100Z",
           "url": "https://ember-api-docs.global.ssl.fastly.net/json-docs/ember/1.0.0/classes/ember-1.0.0-Container-98ecd57968.json"
         },
         "response": {
@@ -67,20 +67,20 @@
             "last-modified": "Fri, 01 Jun 2018 16"
           },
           "status": 200,
-          "timestamp": "2018-06-12T03:23:17.923Z"
+          "timestamp": "2018-06-12T03:50:15.148Z"
         }
       }
     ],
     "aa6ce1d68f5c3af8d6cc95b247e305cb": [
       {
-        "created_at": "2018-06-12T03:23:18.264Z",
+        "created_at": "2018-06-12T03:50:15.583Z",
         "request": {
           "body": null,
           "headers": {
             "Content-Type": "text/plain;charset=utf-8"
           },
           "method": "GET",
-          "timestamp": "2018-06-12T03:23:17.902Z",
+          "timestamp": "2018-06-12T03:50:15.013Z",
           "url": "https://ember-api-docs.global.ssl.fastly.net/rev-index/ember.json"
         },
         "response": {
@@ -90,18 +90,18 @@
             "last-modified": "Fri, 01 Jun 2018 16"
           },
           "status": 200,
-          "timestamp": "2018-06-12T03:23:17.905Z"
+          "timestamp": "2018-06-12T03:50:15.049Z"
         }
       },
       {
-        "created_at": "2018-06-12T03:23:18.264Z",
+        "created_at": "2018-06-12T03:50:15.583Z",
         "request": {
           "body": null,
           "headers": {
             "Content-Type": "text/plain;charset=utf-8"
           },
           "method": "GET",
-          "timestamp": "2018-06-12T03:23:17.920Z",
+          "timestamp": "2018-06-12T03:50:15.099Z",
           "url": "https://ember-api-docs.global.ssl.fastly.net/rev-index/ember.json"
         },
         "response": {
@@ -111,7 +111,7 @@
             "last-modified": "Fri, 01 Jun 2018 16"
           },
           "status": 200,
-          "timestamp": "2018-06-12T03:23:17.921Z"
+          "timestamp": "2018-06-12T03:50:15.141Z"
         }
       }
     ]

@@ -33,8 +33,8 @@
     "testem": "^2.2.1"
   },
   "devDependencies": {
-    "@pollyjs/ember": "0.0.2",
     "@ember/test-helpers": "^0.7.24",
+    "@pollyjs/ember": "0.0.2",
     "broccoli-asset-rev": "^2.5.0",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
@@ -92,7 +92,7 @@
     "loader.js": "^4.6.0",
     "minimist": "^1.2.0",
     "normalize.css": "^7.0.0",
-    "qunit-dom": "^0.3.2"
+    "qunit-dom": "^0.6.3"
   },
   "engines": {
     "node": ">= 8",

@@ -16,37 +16,35 @@ module('Acceptance | Class', function(hooks) {
     await click('[data-test-checkbox="deprecated"]');
 
     this.store = this.owner.lookup('service:store');
+    this.model = this.store.peekRecord('class', 'ember-1.0.0-Container');
   });
 
   test('lists all the methods on the class page', async function(assert) {
-    const container = this.store.peekRecord('class', 'ember-1.0.0-Container');
     assert.equal(
       findAll('.spec-method-list li').length,
-      container.get('methods.length')
+      this.model.get('methods.length')
     );
 
     await click('[data-test-checkbox="private"]'); // turn private back off
 
     assert.equal(
       findAll('.spec-method-list li').length,
-      container.get('methods').filter(method => method.access !== 'private')
+      this.model.get('methods').filter(method => method.access !== 'private')
         .length
     );
   });
 
   test('lists all the properties on the class page', function(assert) {
-    const container = this.store.peekRecord('class', 'ember-1.0.0-Container');
     assert.equal(
       findAll('.spec-property-list li').length,
-      container.get('properties.length')
+      this.model.get('properties.length')
     );
   });
 
   test('lists all the events on the class page', function(assert) {
-    const container = this.store.peekRecord('class', 'ember-1.0.0-Container');
     assert.equal(
       findAll('.spec-event-list li').length,
-      container.get('events.length')
+      this.model.get('events.length')
     );
   });
 
