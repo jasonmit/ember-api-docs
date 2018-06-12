@@ -1,10 +1,12 @@
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
 import findAll from '@ember/test-helpers/dom/find-all';
+import { setupQunit as setupPolly } from '@pollyjs/core';
 import { visit, click, currentURL } from '@ember/test-helpers';
 
-module('Acceptance | Class', function(hooks) {
+module('Acceptance | Class with Polly', function(hooks) {
   setupApplicationTest(hooks);
+  setupPolly(hooks);
 
   hooks.beforeEach(async function() {
     await visit('/ember/1.0/classes/Container');
