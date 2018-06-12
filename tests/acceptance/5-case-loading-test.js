@@ -4,8 +4,8 @@ import { setupApplicationTest } from 'ember-qunit';
 import { setupQunit as setupPolly } from '@pollyjs/core';
 
 module('Acceptance | Class | Loading Substate', function(hooks) {
-  setupApplicationTest(hooks);
   setupPolly(hooks);
+  setupApplicationTest(hooks);
 
   hooks.beforeEach(function() {
     const { server } = this.polly;

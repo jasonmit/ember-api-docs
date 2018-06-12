@@ -5,8 +5,8 @@ import { setupQunit as setupPolly } from '@pollyjs/core';
 import { visit, click, currentURL } from '@ember/test-helpers';
 
 module('Acceptance | Class with Polly', function(hooks) {
-  setupApplicationTest(hooks);
   setupPolly(hooks);
+  setupApplicationTest(hooks);
 
   hooks.beforeEach(async function() {
     await visit('/ember/1.0/classes/Container');
