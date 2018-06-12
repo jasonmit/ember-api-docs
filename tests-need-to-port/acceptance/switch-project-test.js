@@ -5,7 +5,7 @@ import {
   click,
   findAll,
   findWithAssert
-} from 'ember-native-dom-helpers';
+} from '@ember/test-helpers';
 
 moduleForAcceptance('Acceptance | Switch Project');
 

@@ -1,6 +1,6 @@
 import { test } from 'qunit';
 import moduleForAcceptance from 'ember-api-docs/tests/helpers/module-for-acceptance';
-import { visit, find } from 'ember-native-dom-helpers';
+import { visit, find } from '@ember/test-helpers';
 
 moduleForAcceptance('Acceptance | redirects');
 

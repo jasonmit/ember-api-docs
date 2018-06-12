@@ -1,5 +1,5 @@
 import { test } from 'qunit';
-import { visit, click, find } from 'ember-native-dom-helpers';
+import { visit, click, find } from '@ember/test-helpers';
 
 import moduleForAcceptance from 'ember-api-docs/tests/helpers/module-for-acceptance';
 

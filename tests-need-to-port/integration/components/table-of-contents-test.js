@@ -1,6 +1,6 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import { findAll } from 'ember-native-dom-helpers';
+import { findAll } from '@ember/test-helpers';
 
 moduleForComponent('table-of-contents', 'Integration | Component | table of contents', {
   integration: true

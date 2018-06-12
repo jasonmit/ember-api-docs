@@ -1,6 +1,6 @@
 import moduleForAcceptance from 'ember-api-docs/tests/helpers/module-for-acceptance';
 import { test } from 'qunit';
-import { visit, find, findAll } from 'ember-native-dom-helpers';
+import { visit, find, findAll } from '@ember/test-helpers';
 
 moduleForAcceptance('Acceptance | Function');
 

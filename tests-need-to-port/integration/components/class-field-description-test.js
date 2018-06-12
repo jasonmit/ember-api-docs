@@ -1,7 +1,7 @@
 import EmberObject from '@ember/object';
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import { findAll, triggerEvent } from 'ember-native-dom-helpers';
+import { findAll, triggerEvent } from '@ember/test-helpers';
 
 moduleForComponent('class-field-description', 'Integration | Component | class field description', {
   integration: true

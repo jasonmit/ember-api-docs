@@ -1,7 +1,7 @@
 import EmberObject from '@ember/object';
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import { click, findAll } from 'ember-native-dom-helpers';
+import { click, findAll } from '@ember/test-helpers';
 
 moduleForComponent('api-index-filter', 'Integration | Component | api index filter', {
   integration: true
