@@ -13,6 +13,8 @@ module('Acceptance | Class with Polly (Advanced)', function(hooks) {
     server
       .get('https://ember-api-docs.global.ssl.fastly.net/json-docs/ember/1.0.0/*path')
       .on('beforeResponse', (req, res) => {
+        /* we only want to perform this task when recording */
+        /* replays will naturally return the mutated response body that got persisted. */
         if (req.action !== 'record') {
           return;
         }
